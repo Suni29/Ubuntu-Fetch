@@ -2,7 +2,7 @@
 A fake, customizeable neofetch in a bash script!
 
 # Source code
-###If you dont want to download the bash script.
+### If you dont want to download the bash script.
 
 ```
 ###################
