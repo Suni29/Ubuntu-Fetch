@@ -75,7 +75,7 @@ res="0000x0000" # 0000x0000
 normal="\e[33m" # \e[33m
 
 # White color
-c2="\e[97m" # \e[97m
+white="\e[97m" # \e[97m
 
 ############
 #          #
@@ -101,21 +101,21 @@ echo " "
 echo -e "${normal}            .-/+oossssoo+/-."
 echo -e "         :+ssssssssssssssssss+:"
 echo -e "       -+ssssssssssssssssssyyssss+-"
-echo -e "     .ossssssssssssssssss${c2}dMMMNy${normal}sssso."
-echo -e "    /sssssssssss${c2}hdmmNNmmyNMMMMh${normal}ssssss/                   ${normal}${username}${c2}@${normal}${desktopname} "
-echo -e "   +sssssssss${c2}hm${normal}yd${c2}MMMMMMMNddddy${normal}ssssssss+                  ${c2}-------------------${normal} "
-echo -e "  /ssssssss${c2}hNMMM${normal}yh${c2}hyyyyhmNMMMNh${normal}ssssssss/                 ${normal}OS: ${c2}Ubuntu ${ver} ${lts} ${arch}${normal}"
-echo -e " .ssssssss${c2}dMMMNh${normal}ssssssssss${c2}hNMMMd${normal}ssssssss.                ${normal}Host: ${c2}${host}${normal}"
-echo -e " +ssss${c2}hhhyNMMNy${normal}ssssssssssss${c2}yNMMMy${normal}sssssss+                ${normal}Kernel: ${c2}${kernel}${normal}"
-echo -e " oss${c2}yNMMMNyMMh${normal}ssssssssssssss${c2}hmmmh${normal}ssssssso                ${normal}Uptime: ${c2}${uptime}${normal}"
-echo -e " oss${c2}yNMMMNyMMh${normal}sssssssssssssshmmmh${normal}ssssssso                ${normal}Packages: ${c2}${pkgs} (apt)${normal}"
-echo -e " +ssss${c2}hhhyNMMNy${normal}ssssssssssss${c2}yNMMMy${normal}sssssss+                ${normal}Shell: ${c2}bash 4.4.20${normal}"
-echo -e " .ssssssss${c2}dMMMNh${normal}ssssssssss${c2}hNMMMd${normal}ssssssss.                ${normal}Resolution: ${c2}${res}${normal}"
-echo -e "  /ssssssss${c2}hNMMM${normal}yh${c2}hyyyyhdNMMMNh${normal}ssssssss/                 ${normal}Window Manager: ${c2}${wmgr}${normal} "
-echo -e "   +sssssssss${c2}dm${normal}yd${c2}MMMMMMMMddddy${normal}ssssssss+                  ${normal}Virtualization: ${c2}${virt}${normal} "
-echo -e "    /sssssssssss${c2}hdmNNNNmyNMMMMh${normal}ssssss/                   ${normal}CPU: ${c2}${gpu}${normal} "
-echo -e "     .ossssssssssssssssss${c2}dMMMNy${normal}sssso.                    ${normal}Memory: ${c2}${mem} ${normal}/ ${c2}${maxmem}${normal} "
-echo -e "       -+sssssssssssssssss${c2}yyy${normal}ssss+-                   "
+echo -e "     .ossssssssssssssssss${white}dMMMNy${normal}sssso."
+echo -e "    /sssssssssss${white}hdmmNNmmyNMMMMh${normal}ssssss/                   ${normal}${username}${white}@${normal}${desktopname} "
+echo -e "   +sssssssss${white}hm${normal}yd${white}MMMMMMMNddddy${normal}ssssssss+                  ${white}-------------------${normal} "
+echo -e "  /ssssssss${white}hNMMM${normal}yh${white}hyyyyhmNMMMNh${normal}ssssssss/                 ${normal}OS: ${white}Ubuntu ${ver} ${lts} ${arch}${normal}"
+echo -e " .ssssssss${white}dMMMNh${normal}ssssssssss${white}hNMMMd${normal}ssssssss.                ${normal}Host: ${white}${host}${normal}"
+echo -e " +ssss${white}hhhyNMMNy${normal}ssssssssssss${white}yNMMMy${normal}sssssss+                ${normal}Kernel: ${white}${kernel}${normal}"
+echo -e " oss${white}yNMMMNyMMh${normal}ssssssssssssss${white}hmmmh${normal}ssssssso                ${normal}Uptime: ${white}${uptime}${normal}"
+echo -e " oss${white}yNMMMNyMMh${normal}sssssssssssssshmmmh${normal}ssssssso                ${normal}Packages: ${white}${pkgs} (apt)${normal}"
+echo -e " +ssss${white}hhhyNMMNy${normal}ssssssssssss${white}yNMMMy${normal}sssssss+                ${normal}Shell: ${white}bash 4.4.20${normal}"
+echo -e " .ssssssss${white}dMMMNh${normal}ssssssssss${white}hNMMMd${normal}ssssssss.                ${normal}Resolution: ${white}${res}${normal}"
+echo -e "  /ssssssss${white}hNMMM${normal}yh${white}hyyyyhdNMMMNh${normal}ssssssss/                 ${normal}Window Manager: ${white}${wmgr}${normal} "
+echo -e "   +sssssssss${white}dm${normal}yd${white}MMMMMMMMddddy${normal}ssssssss+                  ${normal}Virtualization: ${white}${virt}${normal} "
+echo -e "    /sssssssssss${white}hdmNNNNmyNMMMMh${normal}ssssss/                   ${normal}CPU: ${white}${gpu}${normal} "
+echo -e "     .ossssssssssssssssss${white}dMMMNy${normal}sssso.                    ${normal}Memory: ${white}${mem} ${normal}/ ${white}${maxmem}${normal} "
+echo -e "       -+sssssssssssssssss${white}yyy${normal}ssss+-                   "
 echo -e "         :+ssssssssssssssssss+:"
 echo -e "             .-/+oossssoo+/-."
 echo " "
