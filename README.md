@@ -104,7 +104,7 @@ white="\e[97m" # \e[97m
 
 echo " "
 echo " "
-echo ""
+echo " "
 echo -e "${normal}            .-/+oossssoo+/-."
 echo -e "         :+ssssssssssssssssss+:"
 echo -e "       -+ssssssssssssssssssyyssss+-"
